@@ -40,6 +40,13 @@
   padding: 10px 5px 0 5px;
 }
 
+.icon-linkedin:hover,
+.icon-twitter:hover,
+.icon-envelope:hover,
+.icon-github:hover {
+  color:gray;
+}
+
 a {
   text-decoration: none;
 }
