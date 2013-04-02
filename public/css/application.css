@@ -1,3 +1,8 @@
+.container {
+  /*background-image:url('/../images/white_wall_hash.png');*/
+  background-image:url('/../images/sf.png');
+}
+
 .banner-backer {
   height: 50px;
   width: 100%;
@@ -17,6 +22,7 @@
   font-family: 'Open Sans', sans-serif;
   position: fixed;
   opacity: 0.9;
+  z-index: 1000;
 }
 
 .name {
@@ -83,7 +89,6 @@ a {
 /*RESUME*/
 
 .resume {
-  background-image:url('/../images/white_wall_hash.png');
   font-family: 'Open Sans', sans-serif;
   clear: both;
   font-size: 1em;
@@ -93,6 +98,26 @@ a {
 
 li {
   list-style-type: none;
+}
+
+.publications li {
+  padding: 10px;
+}
+
+.abstract {
+  max-width: 650px
+}
+
+.education { 
+  max-width: 650px;
+}
+
+.experience {
+  max-width: 650px;
+}
+
+.publications {
+  clear: both;
 }
 
 @media only screen and (max-width: 400px) {
