@@ -1,6 +1,6 @@
 .banner {
   width: 100%;
-  height: 100px;
+  height: 140px;
   margin: 0 auto;
   background: #ef4723;
   font-family: 'Open Sans', sans-serif;
@@ -17,36 +17,83 @@
   padding-left: 70px;
 }
 
-#contact {
-  float: right;
+#bat-signal-div {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+}
+
+#bat { 
   padding: 2px;
+  height: 40px; 
+}
+
+#bat:hover {
   height: 45px;
 }
 
 .contact-bar {
-  border: solid #DDDDDD 1px;
+  height: 50px;
+  width: 100%;
 }
 
 .icons {
   display: none;
+  width: 220px;
+  margin: 0px auto;
+}
+
+.icons div {
 }
 
 .icon-linkedin,
 .icon-twitter,
 .icon-envelope,
-.icon-github {
+.icon-github,
+.icon-home {
   color: black;
-  float: right;
   padding: 10px 5px 0 5px;
 }
 
 .icon-linkedin:hover,
 .icon-twitter:hover,
 .icon-envelope:hover,
-.icon-github:hover {
+.icon-github:hover,
+.icon-home:hover {
   color:gray;
 }
 
 a {
   text-decoration: none;
 }
+
+/*RESUME*/
+
+.resume {
+  /*background-image:url('/../images/white_wall_hash.png');*/
+  font-family: 'Open Sans', sans-serif;
+  clear: both;
+}
+
+li {
+  list-style-type: none;
+}
+
+.abstract {
+  margin: 10px;
+  float: left;
+  width: 100px;
+  height: 150px;
+  border-right: solid black 1px;
+}
+
+.education {
+  clear: left;
+  margin: 10px;
+  float: left;
+  width: 100px;
+  height: 150px;
+  border-right: solid black 1px;
+}
+
+
