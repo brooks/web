@@ -1,33 +1,33 @@
 .container {
-  /*background-image:url('/../images/white_wall_hash.png');*/
-  background-image:url('/../images/sf.png');
-}
-
-.banner-backer {
-  height: 50px;
-  width: 100%;
-}
-
-.mobile-icons {
-  display: none;
-  width: 220px;
-  margin: 0px auto;
+  background-image:url('/../images/white_wall_hash.png');
 }
 
 .banner {
   width: 100%;
   height: 140px;
   margin: 0 auto;
-  background: #ef4723;
+  background-image:url('/../images/header.png');
   font-family: 'Open Sans', sans-serif;
   position: fixed;
-  opacity: 0.9;
   z-index: 1000;
 }
 
+.nameplate {
+  background-color: rgba(0,0,0,0.5);
+  height: 140px;
+  width: 100%;
+  margin: 0 auto;
+  opacity: .99;
+}
+
+.nameplate-text {
+  position: relative;
+  top: -8.7em;
+  color: white;
+}
+
 .name {
-  color: #111111;
-  padding: 10px 0 0 0px;
+  padding-top: 10px;
   font-size: 2.5em;
   font-weight: bold;
   text-align: center;
@@ -36,6 +36,7 @@
 .description {
   font-size: 1em;
   text-align: center;
+
 }
 
 #bat-signal-div {
@@ -96,43 +97,57 @@ a {
   padding-top: 140px;
 }
 
-li {
-  list-style-type: none;
-}
-
-.publications li {
-  padding: 10px;
-}
-
-.abstract {
-  max-width: 650px
-}
-
 .education { 
-  max-width: 650px;
+  max-width: 600px;
+  float: left;
 }
 
 .experience {
-  max-width: 650px;
+  max-width: 600px;
+  float: left;
+  border-left: solid black 2px;
+  padding-left: 50px;
 }
 
 .publications {
   clear: both;
 }
 
+.resume li {
+  padding-bottom: 8px;
+  list-style-type: none;
+}
+
+#inspirely {
+  text-decoration: underline;
+  color: black;
+}
+
+#inspirely:hover {
+  color: gray;
+
+}
+
 @media only screen and (max-width: 400px) {
   .resume {
-    font-size: 1.4em;
-  }
-
-  .mobile-icons {
-    display: block;
+    font-size: 1.2em;
   }
 
   .icons {
-    width: 350px;
-    position: absolute;
-    left: -1000px;
+    width: 100%;
+    font-size: .8em;
+    text-align: center;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .education {
+    padding-left: 0;
+  }
+  .experience {
+    border: none;
+    padding-left: 0;
   }
 }
 

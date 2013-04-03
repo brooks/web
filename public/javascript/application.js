@@ -2,11 +2,8 @@ $(document).ready(function(){
 
   $('#bat').click(function(){
     $('.icons').toggle();
-    $('.awesome').addClass('animated bounceInDown');
-    $('.awesome').addClass('animated bounceInDown');
-    $('.awesome').addClass('animated bounceInDown');
-    $('.awesome').addClass('animated bounceInDown');
-    $('.awesome').addClass('animated bounceInDown');
+    $("html, body").animate({ scrollTop: 0 }, "slow");
+    $('.awesome').addClass('animated fadeInDown');
   });
 });
 
