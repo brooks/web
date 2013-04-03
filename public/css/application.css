@@ -13,11 +13,10 @@
 }
 
 .nameplate {
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.6);
   height: 140px;
   width: 100%;
   margin: 0 auto;
-  opacity: .99;
 }
 
 .nameplate-text {
@@ -63,7 +62,6 @@
   display: none;
   width: 220px;
   margin: 0px auto;
-  padding-bottom: 10px;
 }
 
 .icon-linkedin,
@@ -97,6 +95,11 @@ a {
   padding-top: 140px;
 }
 
+.abstract {
+  padding-bottom: 20px;
+  border-bottom: solid gray 2px;
+}
+
 .education { 
   max-width: 600px;
   float: left;
@@ -105,12 +108,13 @@ a {
 .experience {
   max-width: 600px;
   float: left;
-  border-left: solid black 2px;
+  border-left: solid gray 2px;
   padding-left: 50px;
 }
 
 .publications {
   clear: both;
+  border-top: solid gray 2px;
 }
 
 .resume li {
@@ -128,7 +132,7 @@ a {
 
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 400px) {
   .resume {
     font-size: 1.2em;
   }
@@ -141,6 +145,7 @@ a {
   }
   .education {
     padding-left: 0;
+    border-bottom: solid gray 2px;
   }
   .experience {
     border-left: none;
@@ -148,9 +153,10 @@ a {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 700px) {
   .education {
     padding-left: 0;
+    border-bottom: solid gray 2px;
   }
   .experience {
     border-left: none;
