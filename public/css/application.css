@@ -101,12 +101,12 @@ a {
 }
 
 .education { 
-  max-width: 600px;
+  max-width: 50%;
   float: left;
 }
 
 .experience {
-  max-width: 600px;
+  max-width: 50%;
   float: left;
   border-left: solid gray 2px;
   padding-left: 50px;
@@ -157,10 +157,12 @@ a {
   .education {
     padding-left: 0;
     border-bottom: solid gray 2px;
+    max-width: 600px;
   }
   .experience {
     border-left: none;
     padding-left: 0;
+    max-width: 600px;
   }
 }
 
