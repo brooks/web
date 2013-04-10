@@ -137,6 +137,10 @@
     font-size: 1.2em;
   }
 
+  .description {
+    font-size: .8em;
+  }
+
   .icons {
     width: 100%;
     font-size: .8em;
