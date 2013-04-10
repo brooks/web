@@ -30,6 +30,6 @@ $(document).ready(function(){
     $('.pdf').addClass('animated fadeIn');
     $('.icons').toggle();
     $("html, body").animate({ scrollTop: 0 }, "slow");
-    $('.awesome').addClass('animated fadeInDown');
+    $('.awesome').addClass('animated fadeIn');
   });
 });
