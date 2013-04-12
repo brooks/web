@@ -49,9 +49,9 @@
   height: 40px; 
 }
 
-/*#bat:hover {
-  height: 45px;
-}*/
+#bat:hover {
+  cursor: pointer;
+}
 
 .contact-bar {
   height: 50px;
@@ -109,7 +109,7 @@
   font-family: 'Open Sans', sans-serif;
   clear: both;
   font-size: 1em;
-  padding: 20px;
+  padding: 60px;
   padding-top: 140px;
 }
 
@@ -119,7 +119,7 @@
 .skills,
 .publications {
   border-top: solid gray 2px;
-  padding-bottom: 8px
+  padding-bottom: 8px;
 }
 
 .resume li {
@@ -135,6 +135,7 @@
 @media only screen and (max-width: 400px) {
   .resume {
     font-size: 1.2em;
+    padding: 140px 20px 20px 20px;
   }
 
   .description {
