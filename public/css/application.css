@@ -49,9 +49,11 @@
   height: 40px; 
 }
 
-#bat:hover {
+#bat:hover,
+.pdf:hover {
   cursor: pointer;
 }
+
 
 .contact-bar {
   height: 50px;
