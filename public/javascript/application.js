@@ -22,7 +22,7 @@ $(document).ready(function(){
   );
 
   $('.pdf').click(function(){
-    window.open('images/bmason_resume.pdf');
+    window.open('images/web_resume.pdf');
   });
 
   $('#bat').click(function(){
