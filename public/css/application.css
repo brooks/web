@@ -1,4 +1,4 @@
-.container {
+body {
   background-image:url('/../images/white_wall_hash.png');
 }
 
@@ -27,7 +27,7 @@
 
 .name {
   padding-top: 10px;
-  font-size: 2.5em;
+  font-size: 2.3em;
   font-weight: bold;
   text-align: center;
 }
