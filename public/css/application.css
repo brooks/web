@@ -1,46 +1,51 @@
-body {
-  background-image:url('/../images/white_wall_hash.png');
-}
+
 
 .banner {
-  width: 100%;
-  height: 140px;
-  margin: 0 auto;
+  width: 290px;
+  height: 180px;
+  margin: 100px auto 0 auto;
   background-image:url('/../images/header.png');
   font-family: 'Open Sans', sans-serif;
-  position: fixed;
   z-index: 1000;
 }
 
 .nameplate {
   background-color: rgba(0,0,0,0.6);
-  height: 140px;
+  height: 100%;
   width: 100%;
   margin: 0 auto;
 }
 
 .nameplate-text {
   position: relative;
-  top: -8.7em;
-  color: white;
+  top: 8.5em;
+  color: black;
+}
+
+.resume {
+  display:none;
+  color:white;
 }
 
 .name {
   padding-top: 10px;
+  padding-bottom: 25px;
   font-size: 2.3em;
   font-weight: bold;
   text-align: center;
 }
 
 .description {
-  font-size: 1em;
+  color: white;
+  font-size: 1.2em;
   text-align: center;
 
 }
 
 #bat-signal-div {
   width: 100%;
-  position: absolute;
+  position: relative;
+  top: -4.7em;
   text-align: center;
 }
 
@@ -49,8 +54,8 @@ body {
   height: 40px; 
 }
 
-#bat:hover,
-.pdf:hover {
+.pdf:hover,
+.resume:hover {
   cursor: pointer;
 }
 
@@ -88,13 +93,16 @@ body {
   padding: 10px 5px 0 5px;
 }
 
+.icon-cloud-download {
+  color: white;
+}
+
 .icon-linkedin:hover,
 .icon-twitter:hover,
 .icon-envelope:hover,
 .icon-github:hover,
-.icon-home:hover,
-.icon-cloud-download:hover {
-  color:gray;
+.icon-home:hover {
+  color:#656565;
 }
 
 #links {
@@ -105,45 +113,12 @@ body {
   color: gray;
 }
 
-/*RESUME*/
 
-.resume {
-  font-family: 'Open Sans', sans-serif;
-  clear: both;
-  font-size: 1em;
-  padding: 60px;
-  padding-top: 140px;
-}
 
-.mission,
-.education,
-.experience,
-.skills,
-.publications {
-  border-top: solid gray 2px;
-  padding-bottom: 8px;
-}
-
-.resume li {
-  padding-bottom: 8px;
-  list-style-type: square;
-}
-
-.org {
-  font-weight: bold;
-  margin-bottom: 0;
-}
 
 @media only screen and (max-width: 400px) {
-  .resume {
-    font-size: 1.2em;
-    padding: 140px 20px 20px 20px;
-  }
 
-  .description {
-  }
-
-  .icons {
+  .icons, .pdf-bar {
     width: 100%;
     font-size: .8em;
     text-align: center;
@@ -153,12 +128,5 @@ body {
   .pdf-bar {
     display:none;
 
-  }
-  .education {
-    padding-left: 0;
-  }
-  .experience {
-    border-left: none;
-    padding-left: 0;
   }
 }
