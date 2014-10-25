@@ -16,9 +16,9 @@ $(document).ready(function(){
 
 
     $('.icons').show();
-    $('.awesome').addClass('animated bounceInLeft');
-    $('#bat-signal-div').addClass('animated bounceInLeft');
-    $('.nameplate-text').addClass('animated bounceInUp');
+    // $('.awesome').addClass('animated bounceInLeft');
+    // $('#bat-signal-div').addClass('animated bounceInLeft');
+    // $('.nameplate-text').addClass('animated bounceInUp');
 
 
 });
