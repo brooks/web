@@ -1,6 +1,6 @@
 $(document).ready(function(){  
   $('#bat-signal-div').click(function(){
-    window.open('images/bmason_resume.pdf');
+    window.open('bmason_resume.pdf');
   });
 
   $('.icon-cloud-download').hover(
